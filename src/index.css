@@ -13,8 +13,10 @@
 :root {
 	/* background color */
 	--color-bg: #1f1f38;
+	--color-bg-2: rgb(9, 21, 31);
 	/* background color variant  */
 	--color-bg-variant: #2c2c6c;
+	--color-bg-variant-2: #07193abe;
 	/* primary color */
 	--color-primary: #4db5ff;
 	/* primary color variant */
@@ -40,10 +42,12 @@ html {
 
 body {
 	font-family: 'Poppins', sans-serif;
-	background: var(--color-bg);
+	/* background: var(--color-bg); */
+	background: var(--color-bg-2);
 	color: var(--color-white);
 	line-height: 1.7;
 	background-image: url(../src/assets/bg-texture.png);
+	position: relative;
 }
 
 /* ************** GENERAL STYLES *******************/
@@ -67,6 +71,7 @@ h1 {
 
 section {
 	margin-top: 8rem;
+	/* height: 100vh; */
 }
 
 section > h2,
@@ -117,9 +122,15 @@ a:hover {
 
 img {
 	display: block;
+	max-width: 100%;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	object-fit: cover;
+	transition: var(--transition);
+}
+
+img:hover {
+	opacity: 0.6;
 }
 
 /************************ MEDIA QUERIES *********************/
