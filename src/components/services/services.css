@@ -1,0 +1,89 @@
+/* body {
+	background: #3da3d5;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: rgb(255, 0, 0);
+} */
+
+/* .title {
+	font-size: 15em;
+	text-align: center;
+	font-family: 'Bebas Neue', sans-serif;
+} */
+
+/* h3 {
+	padding-top: 0.25em;
+} */
+
+.service__list {
+	padding: 1rem;
+}
+
+.service__list li {
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 0.8rem;
+}
+
+.service__list-icon {
+	font-size: 3rem;
+	color: var(--color-primary);
+	margin-top: 2px;
+}
+
+.vertical-timeline-element-content {
+	box-shadow: 0 0.1em 1.2em 0 var(--color-primary),
+		0 0.4em 1.25em 0 rgba(255, 255, 255, 0.15) !important;
+	padding: 2em 3em;
+	/* text-align: justify; */
+}
+
+.textColor {
+	color: whitesmoke;
+}
+
+.date {
+	color: var(--color-white) !important;
+}
+
+#description {
+	/* margin: 1em 0 0em 0; */
+	font-size: 0.9rem;
+}
+
+.button {
+	text-decoration: none;
+	padding: 0.5em 1em;
+	border-radius: 0.4rem;
+	color: var(--color-bg-variant);
+	transition: var(--transition);
+}
+
+.workButton {
+	background-color: #06d6a0;
+}
+
+.schoolButton {
+	background-color: #f9c74f;
+}
+
+.workButton:hover,
+.schoolButton:hover {
+	background: var(--color-white);
+	color: var(--color-bg);
+	border-color: transparent;
+	/* background-color: #0ac593; */
+}
+
+/* .schoolButton:hover {
+	background-color: #f3bc3c;
+} */
+
+@media only screen and (max-width: 1700px) {
+	.vertical-timeline-element-date {
+		display: block !important;
+		float: none !important;
+		color: rgb(44, 44, 44);
+		margin-top: 1.5em;
+	}
+}
