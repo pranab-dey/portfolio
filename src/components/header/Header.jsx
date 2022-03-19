@@ -2,6 +2,7 @@ import React from 'react';
 import Resume from './Resume';
 import HeaderSocials from './HeaderSocials';
 import MyImage from '../../assets/my_photo.png';
+import LazyLoad from 'react-lazyload';
 import './header.css';
 
 const Header = () => {
@@ -16,7 +17,9 @@ const Header = () => {
 				<HeaderSocials />
 
 				<div className='my__photo'>
-					<img src={MyImage} alt='my_photo' />
+					<LazyLoad height={'100%'} once={true}>
+						<img src={MyImage} alt='my_photo' />
+					</LazyLoad>
 				</div>
 
 				<a href='#contact' className='scroll__down'>
