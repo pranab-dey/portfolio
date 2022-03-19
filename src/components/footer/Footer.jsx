@@ -7,7 +7,9 @@ import './footer.css';
 const Footer = () => {
 	return (
 		<footer>
-			<blockquote className='footer__logo'>Knowledge is Power</blockquote>
+			<blockquote className='footer__logo'>
+				A Different Error message means some Progress!
+			</blockquote>
 
 			<ul className='permalinks'>
 				<li>

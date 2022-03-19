@@ -9,16 +9,16 @@ import { MdOutlineTimeline } from 'react-icons/md';
 import './nav.css';
 
 const Nav = () => {
-	const [activeNav, setActiveNav] = useState('#home');
+	const [activeNav, setActiveNav] = useState('#intro');
 
 	return (
 		<nav>
 			<a
-				href='#home'
+				href='#intro'
 				onClick={() => {
-					setActiveNav('#home');
+					setActiveNav('#intro');
 				}}
-				className={activeNav === '#home' ? 'active' : ''}>
+				className={activeNav === '#intro' ? 'active' : ''}>
 				<AiOutlineHome />
 			</a>
 			<a

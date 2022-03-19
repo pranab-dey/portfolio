@@ -25,6 +25,13 @@ footer blockquote {
 	margin: 0 auto 3rem;
 }
 
+.permalinks li a {
+	color: var(--color-bg-variant-2);
+}
+.permalinks li a:hover {
+	color: var(--color-white);
+}
+
 .footer__socials {
 	display: flex;
 	justify-content: center;
