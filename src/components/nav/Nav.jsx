@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-import { BiBook } from 'react-icons/bi';
 import { GiSkills } from 'react-icons/gi';
 import { RiCustomerServiceLine } from 'react-icons/ri';
 import { MdOutlineTimeline } from 'react-icons/md';

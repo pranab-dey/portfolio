@@ -7,11 +7,7 @@ import './footer.css';
 const Footer = () => {
 	return (
 		<footer>
-			<a>
-				<blockquote className='footer__logo'>
-					Knowledge is Power
-				</blockquote>
-			</a>
+			<blockquote className='footer__logo'>Knowledge is Power</blockquote>
 
 			<ul className='permalinks'>
 				<li>
@@ -34,17 +30,20 @@ const Footer = () => {
 			<div className='footer__socials'>
 				<a
 					href='https://www.facebook.com/pranab.dey.77/'
-					target='_-blank'>
+					target='_-blank'
+					rel='noreferrer'>
 					<FaFacebook />
 				</a>
 				<a
 					href='https://www.instagram.com/_wicked_dey_/'
-					target='_-blank'>
+					target='_-blank'
+					rel='noreferrer'>
 					<FiInstagram />
 				</a>
 				<a
 					href='https://www.linkedin.com/in/pranab-dey-a55225166/'
-					target='_-blank'>
+					target='_-blank'
+					rel='noreferrer'>
 					<FiLinkedin />
 				</a>
 			</div>

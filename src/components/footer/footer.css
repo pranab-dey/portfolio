@@ -6,7 +6,7 @@ footer {
 	margin-top: 6rem;
 }
 
-footer a {
+footer blockquote {
 	color: var(--color-bg);
 }
 .footer__logo {

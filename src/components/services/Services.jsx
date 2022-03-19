@@ -88,7 +88,8 @@ const Services = () => {
 												: 'schoolButton'
 										}`}
 										href={element.link}
-										target='__blank'>
+										target='__blank'
+										rel='noreferrer'>
 										{element.buttonText}
 									</a>
 								)}

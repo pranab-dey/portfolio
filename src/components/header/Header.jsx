@@ -4,8 +4,6 @@ import HeaderSocials from './HeaderSocials';
 import MyImage from '../../assets/my_photo.png';
 import './header.css';
 
-const imageSize = { width: '100%', height: '100%' };
-
 const Header = () => {
 	return (
 		<header id='#'>
