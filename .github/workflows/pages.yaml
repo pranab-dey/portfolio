@@ -54,5 +54,3 @@ jobs:
                   publish_dir: ./build
                   allow_empty_commit: true
                   keep_files: true
-#done
-#done
