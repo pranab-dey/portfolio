@@ -27,6 +27,7 @@ footer blockquote {
 
 .permalinks li a {
 	color: var(--color-bg-variant-2);
+	font-weight: 500;
 }
 .permalinks li a:hover {
 	color: var(--color-white);
