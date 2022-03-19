@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f5487ec9.css",
-    "main.js": "/portfolio/static/js/main.2a657e2e.js",
+    "main.css": "/portfolio/static/css/main.b60b282f.css",
+    "main.js": "/portfolio/static/js/main.ed4d1cad.js",
     "static/media/my_photo.png": "/portfolio/static/media/my_photo.f93184404e2614d1c1c0.png",
     "static/media/my_photo_.png": "/portfolio/static/media/my_photo_.f66d5811f028bcd62148.png",
     "static/media/Pranab_Dey_SDE_II.pdf": "/portfolio/static/media/Pranab_Dey_SDE_II.1684c7fa682b2fbd28f4.pdf",
@@ -9,11 +9,11 @@
     "static/media/school.svg": "/portfolio/static/media/school.59a8d5a2b98f92800bea7261fcd97ea2.svg",
     "static/media/work.svg": "/portfolio/static/media/work.7097553a41a7162cdac28432965f31c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.f5487ec9.css.map": "/portfolio/static/css/main.f5487ec9.css.map",
-    "main.2a657e2e.js.map": "/portfolio/static/js/main.2a657e2e.js.map"
+    "main.b60b282f.css.map": "/portfolio/static/css/main.b60b282f.css.map",
+    "main.ed4d1cad.js.map": "/portfolio/static/js/main.ed4d1cad.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5487ec9.css",
-    "static/js/main.2a657e2e.js"
+    "static/css/main.b60b282f.css",
+    "static/js/main.ed4d1cad.js"
   ]
 }
