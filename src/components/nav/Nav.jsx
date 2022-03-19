@@ -1,3 +1,5 @@
+/* jsx-a11y/anchor-is-valid*/
+
 import React, { useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { GiSkills } from 'react-icons/gi';
@@ -7,16 +9,16 @@ import { MdOutlineTimeline } from 'react-icons/md';
 import './nav.css';
 
 const Nav = () => {
-	const [activeNav, setActiveNav] = useState('#');
+	const [activeNav, setActiveNav] = useState('#home');
 
 	return (
 		<nav>
 			<a
-				href='#'
+				href='#home'
 				onClick={() => {
-					setActiveNav('#');
+					setActiveNav('#home');
 				}}
-				className={activeNav === '#' ? 'active' : ''}>
+				className={activeNav === '#home' ? 'active' : ''}>
 				<AiOutlineHome />
 			</a>
 			<a
