@@ -26,15 +26,16 @@
 }
 
 .service__list-icon {
-	font-size: 3rem;
+	font-size: 1rem;
 	color: var(--color-primary);
-	margin-top: 2px;
+	margin-top: 18px;
 }
 
 .vertical-timeline-element-content {
 	box-shadow: 0 0.1em 1.2em 0 var(--color-primary),
 		0 0.4em 1.25em 0 rgba(255, 255, 255, 0.15) !important;
 	padding: 2em 3em;
+	cursor: default;
 	/* text-align: justify; */
 }
 

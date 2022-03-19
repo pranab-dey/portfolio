@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
+import { BiBook } from 'react-icons/bi';
+import { GiSkills } from 'react-icons/gi';
 import { RiCustomerServiceLine } from 'react-icons/ri';
+import { MdOutlineTimeline } from 'react-icons/md';
 
 import './nav.css';
 
@@ -32,7 +34,7 @@ const Nav = () => {
 					setActiveNav('#skills');
 				}}
 				className={activeNav === '#skills' ? 'active' : ''}>
-				<BiBook />
+				<GiSkills />
 			</a>
 			<a
 				href='#timeline'
@@ -40,7 +42,7 @@ const Nav = () => {
 					setActiveNav('#timeline');
 				}}
 				className={activeNav === '#timeline' ? 'active' : ''}>
-				<BiMessageSquareDetail />
+				<MdOutlineTimeline />
 			</a>
 			<a
 				href='#contact'

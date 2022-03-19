@@ -36,27 +36,20 @@ const About = () => {
 							<small>25+ Completed</small>
 						</article>
 
-						<article className='about__card'>
+						{/* <article className='about__card'>
 							<VscFolderLibrary className='about__icon' />
 							<h5>Languages</h5>
 							<small>Bangla, English</small>
-						</article>
+						</article> */}
 					</div>
 					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing
-						elit. Repellat ipsam aspernatur tempora dignissimos
-						deserunt ducimus accusantium totam quaerat eaque non,
-						dolor velit temporibus soluta laborum molestias maxime!
-						Facilis, vel corrupti!Lorem ipsum, dolor sit amet
-						consectetur adipisicing elit. Repellat ipsam aspernatur
-						tempora dignissimos deserunt ducimus accusantium totam
-						quaerat eaque non, dolor velit temporibus soluta laborum
-						molestias maxime! Facilis, vel corrupti!Lorem ipsum,
-						dolor sit amet consectetur adipisicing elit. Repellat
-						ipsam aspernatur tempora dignissimos deserunt ducimus
-						accusantium totam quaerat eaque non, dolor velit
-						temporibus soluta laborum molestias maxime! Facilis, vel
-						corrupti!
+						I am a Software Engineer with a demonstrated history of
+						working in the Information & Technology industry. With a
+						Bachelor of Science (B.Sc.) focused in Computer science
+						and Engineering, I am specialized in JavaScript and have
+						professional experience working with NodeJS, React,
+						Redux, GraphQL, AWS Services like S3, DynamoDB, Lambda,
+						apigateway, CloudFormation.
 					</p>
 
 					<a href='#contact' className='btn btn-primary'>

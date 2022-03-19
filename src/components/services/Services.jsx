@@ -21,11 +21,9 @@ const Services = () => {
 			<h5>What I've Done so far</h5>
 			<h2>My Timeline</h2>
 			<div>
-				{/* <h1 className='title'>Timeline</h1> */}
 				<VerticalTimeline
 					lineColor={'red'}
-					// className='VerticalTimelineCUSTOM'
-				>
+					className='VerticalTimelineCUSTOM'>
 					{timelineElements.map((element) => {
 						let isWorkIcon = element.icon === 'work';
 						let showButton =
@@ -49,6 +47,7 @@ const Services = () => {
 								// style={{
 								// 	background: 'green',
 								// }}
+
 								contentStyle={{
 									border: '1px solid rgba(77, 181, 255, 0.4)',
 									borderRadius: '10px',
@@ -60,7 +59,6 @@ const Services = () => {
 									{element.title}
 								</h3>
 								<h4 style={{ color: 'grey' }}>
-									{' '}
 									@ {element.institute}
 								</h4>
 								<small className='vertical-timeline-element-subtitle text-light'>
@@ -70,10 +68,14 @@ const Services = () => {
 								<ul className='service__list'>
 									{element.description.map((description) => (
 										<li>
-											<RiCheckboxFill className='service__list-icon' />
-											<p id='description'>
-												{description}
-											</p>
+											<div>
+												<RiCheckboxFill className='service__list-icon' />
+											</div>
+											<div>
+												<p id='description'>
+													{description}
+												</p>
+											</div>
 										</li>
 									))}
 								</ul>
@@ -85,7 +87,8 @@ const Services = () => {
 												? 'workButton'
 												: 'schoolButton'
 										}`}
-										href='/'>
+										href={element.link}
+										target='__blank'>
 										{element.buttonText}
 									</a>
 								)}
