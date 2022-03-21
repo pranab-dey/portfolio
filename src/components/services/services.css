@@ -38,6 +38,29 @@
 	cursor: default;
 	/* text-align: justify; */
 }
+/* .customH5 {
+	font-weight: 100;
+	text-shadow: 1px 1px #1d87ce;
+	font-size: 4rem;
+	line-height: 0.6;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	white-space: nowrap;
+
+	padding-top: 1.5rem;
+}
+.customH2 {
+	font-size: 40px;
+	line-height: 0.2;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	transform: translateY(50%);
+	text-shadow: 2px 2px #000000;
+	white-space: nowrap;
+	color: #0e354d !important;
+	margin-bottom: 3rem;
+} */
 
 .textColor {
 	color: whitesmoke;

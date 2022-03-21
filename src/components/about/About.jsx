@@ -9,13 +9,16 @@ import './about.css';
 const About = () => {
 	return (
 		<section id='about'>
-			<h5>Get To Know</h5>
-			<h2>About Me</h2>
+			<h5 className='customH5'>Get To Know</h5>
+			<h2 className='customH2'>About Me</h2>
 
 			<div className='container about__container'>
 				<div className='about__me'>
 					<div className='about__me-image'>
-						<img src={AboutMeImage} alt='About'></img>
+						<img
+							src={AboutMeImage}
+							alt='About'
+							className='customImage'></img>
 					</div>
 				</div>
 				<div className='about__content'>
@@ -33,7 +36,7 @@ const About = () => {
 						<article className='about__card'>
 							<VscFolderLibrary className='about__icon' />
 							<h5>Projects</h5>
-							<small>25+ Completed</small>
+							<small>20+ Completed</small>
 						</article>
 
 						{/* <article className='about__card'>
