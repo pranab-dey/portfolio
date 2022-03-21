@@ -68,6 +68,9 @@ textarea {
 		grid-template-columns: 1fr;
 		gap: 2rem;
 	}
+	.customH2 {
+		font-size: 30px !important;
+	}
 }
 
 /* Small Devices */

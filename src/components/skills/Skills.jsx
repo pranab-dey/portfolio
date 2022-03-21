@@ -5,8 +5,8 @@ import './experience.css';
 const Experience = () => {
 	return (
 		<section id='skills'>
-			<h5>What I Work With</h5>
-			<h2>My Skills</h2>
+			<h5 className='customH5 H5'>What I Work With</h5>
+			<h2 className='customH2 H2'>My Skills</h2>
 
 			<div className='container experience__container'>
 				<div className='experience__frontend'>

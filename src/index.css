@@ -19,7 +19,7 @@
 	--color-bg-2: rgb(9, 21, 31);
 	/* background color variant  */
 	--color-bg-variant: #2c2c6c;
-	--color-bg-variant-2: #07193abe;
+	--color-bg-variant-2: #07193a65;
 	/* primary color */
 	--color-primary: #4db5ff;
 	/* primary color variant */
@@ -136,6 +136,28 @@ img {
 img:hover {
 	opacity: 0.6;
 }
+.customH5 {
+	font-weight: 100;
+	text-shadow: 1px 1px #1d87ce;
+	font-size: 4rem;
+	line-height: 0.6;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	white-space: nowrap;
+	padding-top: 1.5rem;
+}
+.customH2 {
+	font-size: 40px;
+	line-height: 0.2;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	transform: translateY(50%);
+	text-shadow: 3px 3px #000000;
+	white-space: nowrap;
+	/* color: #0e354d !important; */
+	margin-bottom: 7rem;
+}
 
 /************************ MEDIA QUERIES *********************/
 
@@ -159,5 +181,11 @@ img:hover {
 	}
 	section > h2 {
 		margin-bottom: 2rem;
+	}
+	.customH5 {
+		font-size: 2.5rem;
+	}
+	.customH2 {
+		font-size: 30px;
 	}
 }
