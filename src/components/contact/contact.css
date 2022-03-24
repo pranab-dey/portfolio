@@ -40,6 +40,11 @@
 	display: inline-block;
 	font-size: 0.8rem;
 }
+.customh3 {
+	color: rgba(7, 197, 245, 0.562) !important;
+	font-size: 1rem;
+	margin-top: 15px !important;
+}
 
 /* form {
 	display: flex;
@@ -68,9 +73,9 @@ textarea {
 		grid-template-columns: 1fr;
 		gap: 2rem;
 	}
-	.customH2 {
+	/* .customH2 {
 		font-size: 30px !important;
-	}
+	} */
 }
 
 /* Small Devices */

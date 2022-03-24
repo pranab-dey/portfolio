@@ -10,11 +10,11 @@ const Header = () => {
 		<header id='intro'>
 			<div className='container header__container'>
 				<div style={{ paddingLeft: '40px' }}>
-					<h5 className='customH5Title'>Hello there, I am</h5>
-					<h1 className='customH1'>Pranab Dey</h1>
-					<h5 className='text-light subtitle'>
+					<h3>Hello there, I am</h3>
+					<h1>Pranab Dey</h1>
+					<h6 className='text-light'>
 						Software Development Engineer
-					</h5>
+					</h6>
 
 					<Resume />
 				</div>

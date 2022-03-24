@@ -18,8 +18,8 @@ const Services = () => {
 	let schoolIconStyles = { background: '#f9c74f' };
 	return (
 		<section id='timeline'>
-			<h5 className='customH5'>What I've Done so far</h5>
-			<h2 className='customH2'>My Timeline</h2>
+			<h5>What I've Done</h5>
+			<h2>My Timeline</h2>
 			<div>
 				<VerticalTimeline
 					lineColor={'red'}

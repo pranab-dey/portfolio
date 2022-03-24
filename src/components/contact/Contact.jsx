@@ -8,15 +8,15 @@ import './contact.css';
 const Contact = () => {
 	return (
 		<section id='contact'>
-			<h5 className='customH5'>Get In Touch</h5>
-			<h2 className='customH2'>Contact Me</h2>
+			<h5>Get In Touch</h5>
+			<h2>Contact Me</h2>
 
 			<div className='container container__contact'>
 				<div className='contact__options'>
 					<article className='contact__option'>
 						<MdOutlineMail className='icon' />
 						<h4>Email</h4>
-						<h5>pranab.strings07@gmail.com</h5>
+						<h3 className='customh3'>pranab.strings07@gmail.com</h3>
 						<a
 							href='mailto:pranab.strings07@gmail.com'
 							target='_blank'
@@ -28,7 +28,7 @@ const Contact = () => {
 					<article className='contact__option'>
 						<RiMessengerLine className='icon' />
 						<h4>Messenger</h4>
-						<h5>pranab.dey.77</h5>
+						<h3 className='customh3'>pranab.dey.77</h3>
 						<a
 							href='https://m.me//pranab.dey.77'
 							target='_blank'
@@ -40,7 +40,7 @@ const Contact = () => {
 					<article className='contact__option'>
 						<BsWhatsapp className='icon' />
 						<h4>Whatsapp</h4>
-						<h5>+8801673764471</h5>
+						<h3 className='customh3'>+8801673764471</h3>
 						<a
 							href='https://api.whatsapp.com/send?phone=+8801673764471'
 							target='_blank'

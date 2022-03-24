@@ -1,22 +1,42 @@
+.customH2 {
+	/* font-weight: 100;
+	font-size: 1rem;
+	line-height: 0.3;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	white-space: nowrap;
+	text-shadow: 3px 3px #000000;
+	color: aliceblue !important; */
+
+	/* color: aqua; */
+	/* padding-top: 1.5rem; */
+	/* text-shadow: z1px 1px #1d87ce; */
+}
+.customH5 {
+	/* width: max-content;
+	margin: 0 auto;
+	font-size: 1rem;
+	line-height: 0.3;
+	text-transform: uppercase;
+	font-weight: 100;
+	white-space: nowrap; */
+
+	/* background: #189dd1bb; */
+	/* color: #08152e !important; */
+	/* text-shadow: 2px 2px #189dd1; */
+	/* padding-top: 10px; */
+	/* letter-spacing: 0px; */
+	/* transform: translateY(50%); */
+	/* color: #0e354d !important; */
+	/* margin-bottom: 1rem; */
+}
+
 header {
 	height: 100vh;
 	padding-top: 7rem;
 	overflow: hidden;
 }
 
-.customH1 {
-	font-weight: 500 !important;
-	letter-spacing: 4px;
-	text-transform: uppercase;
-}
-.subtitle {
-	letter-spacing: 2px;
-	font-size: 14px;
-	/* line-height: 1em; */
-}
-.customH5Title {
-	letter-spacing: 1px;
-}
 .header__container {
 	text-align: center;
 	height: 100%;
