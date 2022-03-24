@@ -112,6 +112,7 @@ h2 {
 }
 h5 {
 	/* background: #189dd1bb; */
+	background: linear-gradient(65deg, transparent, var(--color-primary));
 	width: max-content;
 	margin: 0 auto;
 	color: #08152e !important;
