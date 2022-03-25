@@ -45,13 +45,13 @@ const Services = () => {
 									isWorkIcon ? <WorkIcon /> : <SchoolIcon />
 								}
 								// style={{
-								// 	background: 'green',
+								// 	padding: '10px',
 								// }}
-
 								contentStyle={{
 									border: '1px solid rgba(77, 181, 255, 0.4)',
 									borderRadius: '10px',
 									background: 'rgb(9, 21, 31)',
+									padding: '40px',
 								}}
 								contentArrowStyle={{}}
 								textClassName={'textColor'}>

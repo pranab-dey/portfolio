@@ -4,11 +4,11 @@ nav {
 	/* margin: 50 auto; */
 	display: block;
 	padding: 0.7rem 1.7rem;
-	z-index: 3;
+	z-index: 30;
 	position: fixed;
 	bottom: 0;
 	right: 41%;
-	transform: translate(-0%);
+	/* transform: translate(-0%); */
 	display: flex;
 	gap: 0.8rem;
 	border-radius: 3rem;
@@ -47,7 +47,10 @@ nav a.active {
 
 @media screen and (max-width: 600px) {
 	nav {
-		right: 22%;
-		padding: 2rem 0.5rem;
+		/* padding: 1.7rem; */
+		right: 19%;
+		bottom: 4%;
+
+		/* padding: 2rem 0.5rem; */
 	}
 }
