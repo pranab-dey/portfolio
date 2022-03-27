@@ -49,31 +49,6 @@ const Contact = () => {
 						</a>
 					</article>
 				</div>
-
-				{/* <form action=''>
-					<input
-						type='text'
-						name='name'
-						placeholder='Full Name'
-						required
-					/>
-					<input
-						type='email'
-						name='email'
-						placeholder='Email'
-						required
-					/>
-					<textarea
-						type='text'
-						name='message'
-						placeholder='Your Message...'
-						rows='7'
-						required
-					/>
-					<button type='submit' className='btn btn-primary'>
-						Send Message
-					</button>
-				</form> */}
 			</div>
 		</section>
 	);

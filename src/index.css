@@ -1,6 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap');
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,900;1,100;1,500;1,600;1,800;1,900&display=swap');
 
 * {
@@ -45,7 +42,6 @@ html {
 
 body {
 	font-family: 'Poppins', sans-serif;
-	/* background: var(--color-bg); */
 	background: var(--color-bg-2);
 	color: var(--color-white);
 	line-height: 1.7;
@@ -76,7 +72,6 @@ h3 {
 	white-space: nowrap;
 	letter-spacing: 0.5px;
 	margin-top: 1rem;
-	/* margin-top: 10px; */
 }
 h6 {
 	font-weight: 100;
@@ -104,15 +99,8 @@ h2 {
 	text-shadow: 3px 3px #000000;
 	color: aliceblue !important;
 	padding-bottom: 30px;
-
-	/* color: aqua; */
-	/* padding-top: 1.5rem; */
-	/* text-shadow: z1px 1px #1d87ce; 
-	test
-	*/
 }
 h5 {
-	/* background: #189dd1bb; */
 	background: linear-gradient(65deg, transparent, var(--color-primary));
 	width: max-content;
 	margin: 0 auto;
@@ -125,9 +113,6 @@ h5 {
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	white-space: nowrap;
-	/* transform: translateY(50%); */
-	/* color: #0e354d !important; */
-	/* margin-bottom: 1rem; */
 }
 
 section {
@@ -135,59 +120,11 @@ section {
 	/* height: 100vh; */
 }
 
-/* .customH5 {
-	font-weight: 100;
-	text-shadow: 1px 1px #1d87ce;
-	font-size: 4rem;
-	line-height: 0.6;
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	white-space: nowrap;
-
-	padding-top: 1.5rem;
-}
-.customH2 {
-	font-size: 40px;
-	line-height: 0.2;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	transform: translateY(50%);
-	text-shadow: 2px 2px #000000;
-	white-space: nowrap;
-	color: #0e354d !important;
-	margin-bottom: 3rem;
-} */
-
 section > h2,
 section > h5 {
 	text-align: center;
 	color: var(--color-light);
 }
-
-/* .customH5 {
-	font-weight: 100;
-	text-shadow: 1px 1px #1d87ce;
-	font-size: 4rem;
-	line-height: 0.6;
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	white-space: nowrap;
-	
-	padding-top: 1.5rem;
-}
-.customH2 {
-	font-size: 40px;
-	line-height: 0.2;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	transform: translateY(50%);
-	text-shadow: 2px 2px #000000;
-	white-space: nowrap;
-	color: #0e354d !important;
-	margin-bottom: 3rem;
-} */
 
 section > h2 {
 	color: var(--color-primary);

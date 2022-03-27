@@ -2,6 +2,7 @@ import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
+import LazyLoad from 'react-lazyload';
 import AboutMeImage from '../../assets/my_photo_.png';
 
 import './about.css';
@@ -15,10 +16,13 @@ const About = () => {
 			<div className='container about__container'>
 				<div className='about__me'>
 					<div className='about__me-image'>
-						<img
-							src={AboutMeImage}
-							alt='About'
-							className='customImage'></img>
+						<LazyLoad height={'100%'} once={true}>
+							<img
+								src={AboutMeImage}
+								alt='About'
+								className='customImage'
+							/>
+						</LazyLoad>
 					</div>
 				</div>
 				<div className='about__content'>
@@ -38,12 +42,6 @@ const About = () => {
 							<h6>Projects</h6>
 							<small>20+ Completed</small>
 						</article>
-
-						{/* <article className='about__card'>
-							<VscFolderLibrary className='about__icon' />
-							<h5>Languages</h5>
-							<small>Bangla, English</small>
-						</article> */}
 					</div>
 					<p>
 						I am a Software Engineer with a demonstrated history of

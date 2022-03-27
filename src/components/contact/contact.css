@@ -2,7 +2,6 @@
 .container__contact {
 	width: 58%;
 	display: grid;
-	/* grid-template-columns: 30% 50%; */
 	grid-template-columns: 50%;
 	align-items: center;
 	justify-content: center;
@@ -46,23 +45,6 @@
 	margin-top: 15px !important;
 }
 
-/* form {
-	display: flex;
-	flex-direction: column;
-	gap: 1.2rem;
-}
-
-input,
-textarea {
-	width: 100%;
-	padding: 1.5rem;
-	border-radius: 0.5rem;
-	background: transparent;
-	border: 2px solid var(--color-primary-variant);
-	resize: none;
-	color: var(--color-white);
-} */
-
 /************************ MEDIA QUERIES *********************/
 
 /* Medium Devices */
@@ -73,9 +55,6 @@ textarea {
 		grid-template-columns: 1fr;
 		gap: 2rem;
 	}
-	/* .customH2 {
-		font-size: 30px !important;
-	} */
 }
 
 /* Small Devices */
