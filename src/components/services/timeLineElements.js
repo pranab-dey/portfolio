@@ -7,7 +7,7 @@ let timelineElements = [
 		description: [
 			'Building modules for serverless application (AWS SAM).',
 			'Developing and maintaining features in micro-services with AWS Lambda, AWS api-gateway, AWS S3, AWS DynamoDB',
-			'Developing features in project backend with DynamoDB, S3, AppSync, CloudFormation, CodePipeline, Code build services from AWS.',
+			'Developing asset management features in project backend with lambda, DynamoDB, S3, AppSync, CloudFormation, CodePipeline services from AWS.',
 			'Works with Apollo Client in React for Client Side',
 		],
 		buttonText: 'Company Website',
