@@ -7,7 +7,7 @@ on:
         branches:
             - master
     schedule:
-        - cron: '24 */24 * * *' # Once a dayyy
+        - cron: '0 0 */2 * *'
 
 # Functions
 jobs:
