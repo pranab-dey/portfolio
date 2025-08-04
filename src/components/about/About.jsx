@@ -2,8 +2,6 @@ import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import LazyLoad from 'react-lazyload';
-import AboutMeImage from '../../assets/my_photo_.png';
 
 import './about.css';
 
