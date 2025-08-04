@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/Pranab_Dey_SDE_II.pdf';
+import CV from '../../assets/Pranab_Dey_Resume.pdf';
 
 const Resume = () => {
 	return (

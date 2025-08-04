@@ -14,7 +14,7 @@ const About = () => {
 			<h2>About Me</h2>
 
 			<div className='container about__container'>
-				<div className='about__me'>
+				{/* <div className='about__me'>
 					<div className='about__me-image'>
 						<LazyLoad height={'100%'} once={true}>
 							<img
@@ -24,13 +24,13 @@ const About = () => {
 							/>
 						</LazyLoad>
 					</div>
-				</div>
+				</div> */}
 				<div className='about__content'>
 					<div className='about__cards'>
 						<article className='about__card'>
 							<FaAward className='about__icon' />
 							<h6>Experience</h6>
-							<small>4+ Years Working</small>
+							<small>6+ Years Working</small>
 						</article>
 						<article className='about__card'>
 							<FiUsers className='about__icon' />
@@ -44,18 +44,17 @@ const About = () => {
 						</article>
 					</div>
 					<p>
-						I am a Software Engineer with a demonstrated history of
-						working in the Information & Technology industry. With a
-						Bachelor of Science (B.Sc.) focused in Computer science
-						and Engineering, I am specialized in JavaScript and have
-						professional experience working with NodeJS, React,
-						Redux, GraphQL, AWS Services like S3, DynamoDB, Lambda,
-						apigateway, CloudFormation.
+						Senior Full Stack Software Engineer with 6+ years of
+						experience in building scalable, cloud-native
+						applications using React, NodeJS, NestJS, AWS and
+						serverless technologies. Proven success in delivering
+						high-performance APIs, modern frontend architectures,
+						and cost-efficient event driven systems in agile teams.
 					</p>
 
-					<a href='#contact' className='btn btn-primary'>
+					{/* <a href='#contact' className='btn btn-primary'>
 						Let's Talk
-					</a>
+					</a> */}
 				</div>
 			</div>
 		</section>

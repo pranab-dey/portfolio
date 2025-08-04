@@ -1,7 +1,7 @@
 import React from 'react';
 import Resume from './Resume';
 import HeaderSocials from './HeaderSocials';
-import MyImage from '../../assets/my_photo.png';
+import MyImage from '../../assets/my_photo.gif';
 import LazyLoad from 'react-lazyload';
 import './header.css';
 
@@ -12,9 +12,7 @@ const Header = () => {
 				<div style={{ paddingLeft: '40px' }}>
 					<h3>Hello there, I am</h3>
 					<h1>Pranab Dey</h1>
-					<h6 className='text-light'>
-						Software Development Engineer
-					</h6>
+					<h6 className='text-light'>Senior Software Engineer</h6>
 
 					<Resume />
 				</div>
