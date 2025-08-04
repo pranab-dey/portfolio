@@ -20,8 +20,17 @@ const Header = () => {
 				<HeaderSocials />
 
 				<div className='my__photo'>
-					<LazyLoad height={'100%'} once={true}>
-						<img src={MyImage} alt='my_photo' />
+					<LazyLoad
+						height={'100%'}
+						once={true}
+						style={{
+							display: 'block',
+						}}>
+						<img
+							src={MyImage}
+							alt='my_photo'
+							style={{ mixBlendMode: 'screen' }}
+						/>
 					</LazyLoad>
 				</div>
 
